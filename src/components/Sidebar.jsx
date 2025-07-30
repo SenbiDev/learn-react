@@ -16,6 +16,7 @@ const sidebarLink = [
   { path: '/learn8', label: '8. Memperbarui layar' },
   { path: '/learn9', label: '9. Berbagi data antar komponen' },
   { path: '/learn10', label: '10. CRUD Array String' },
+  { path: '/all-form', label: '11. Input Demo' },
 ]
 
 const Sidebar = () => {
