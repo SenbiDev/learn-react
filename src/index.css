@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.file-css {
+  color: green;
+  font-weight: 600;
+}
