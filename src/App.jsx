@@ -15,6 +15,7 @@ import Learn8 from './pages/Learn8';
 import Learn9 from './pages/Learn9';
 import CrudArrayStr from './pages/CrudArrayStr';
 import InputDemoPage from './pages/InputDemoPage';
+import Berita from './pages/Berita';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Route path="/learn9" element={<Learn9 />} />
             <Route path="/learn10" element={<CrudArrayStr />} />
             <Route path="/all-form" element={<InputDemoPage />} />
+            <Route path="/berita" element={<Berita />} />
           </Routes>
         </div>
       </div>
