@@ -18,6 +18,7 @@ const sidebarLink = [
   { path: '/learn10', label: '10. CRUD Array String' },
   { path: '/all-form', label: '11. Input Demo' },
   { path: '/berita', label: '12. Berita' },
+  { path: '/layout-film', label: '13. Layout Film' },
 ]
 
 const Sidebar = () => {
