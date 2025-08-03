@@ -3,12 +3,27 @@ import Search from './Search';
 import LoginRegister from './LoginRegister';
 
 const Header = () => {
-    return(
+    return (
         <header className="bg-[#F2DE9F] w-full mb-[10px]">
-            <div className="bg-[#F2DE9F] w-full h-[81px] flex items-center justify-between px-[20px] mb[25px] box-border max-[529px]:h-full max-[529px]:flex-col max-[529px]:items-start max-[529px]:p-[10px_24px]">
-                <Search />
-                <div className="text-[16px] font-medium text-[black] border-[0] bg-transparent px-[20px] py-[10px] gap-[10px]"></div>
-                <LoginRegister />
+            <div className="bg-[#F2DE9F] w-full h-[81px] flex items-center px-[20px] mb-[25px] box-border max-[529px]:h-full max-[529px]:flex-col max-[529px]:items-start max-[529px]:p-[10px_24px]">
+
+                {/* Search di kiri */}
+                <div className="flex-1">
+                    <Search />
+                </div>
+
+                {/* "News" di tengah */}
+                <div className="flex-1 text-center">
+                    <div className="text-black font-medium text-[32px] max-[529px]:text-[28px] max-[529px]:mb-[10px]">
+                        News
+                    </div>
+                </div>
+
+                {/* Login & Register di kanan */}
+                <div className="flex-1 flex justify-end gap-[20px]">
+                    <LoginRegister />
+                </div>
+
             </div>
         </header>
     );
