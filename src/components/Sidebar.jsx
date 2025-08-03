@@ -17,7 +17,11 @@ const sidebarLink = [
   { path: '/learn9', label: '9. Berbagi data antar komponen' },
   { path: '/learn10', label: '10. CRUD Array String' },
   { path: '/all-form', label: '11. Input Demo' },
+<<<<<<< HEAD
   { path: '/berita', label: '12. berita' },
+=======
+  { path: '/berita', label: '12. Berita'},
+>>>>>>> e900649283294b72638f13bd96018beb8025ee84
 ]
 
 const Sidebar = () => {
