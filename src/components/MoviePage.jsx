@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from '../component/Navbar';
-import Hero from '../components/Hero';
-import TopMovies from '../components/TopMovies';
-import NewMovies from '../components/NewMovies';
-import Footer from '../components/FooterMovie';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import TopMovies from './TopMovies';
+import NewMovies from './NewMovies';
+import Footer from './FooterMovie';
 
 const MoviePage = () => {
   return (

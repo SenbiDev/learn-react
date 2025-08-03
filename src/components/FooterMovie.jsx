@@ -8,19 +8,21 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#5A38EE] px-10 py-8">
-      <h1 className="text-2xl font-bold mb-6">Movies</h1>
-      <div className="flex flex-wrap gap-10">
-        {columns.map((col, i) => (
-          <div key={i} className="space-y-2">
-            {col.map((item, idx) => (
-              <p key={idx} className="text-white text-sm">{item}</p>
-            ))}
-          </div>
-        ))}
+    <footer className="bg-[#5A38EE] py-10 mt-20 border-t border-white/20">
+      <div className="w-full max-w-[1200px] mx-auto px-6">
+        <h1 className="text-2xl font-bold mb-6 text-white">Movies</h1>
+        <div className="flex flex-wrap gap-10 justify-between">
+          {columns.map((col, i) => (
+            <div key={i} className="space-y-2 min-w-[150px]">
+              {col.map((item, idx) => (
+                <p key={idx} className="text-white text-sm">{item}</p>
+              ))}
+            </div>
+          ))}
+        </div>
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
