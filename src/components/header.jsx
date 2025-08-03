@@ -8,7 +8,7 @@ const Header = () => {
             <div className="bg-[#F2DE9F] w-full h-[81px] flex items-center px-[20px] mb-[25px] box-border max-[529px]:h-full max-[529px]:flex-col max-[529px]:items-start max-[529px]:p-[10px_24px]">
 
                 <div className="flex-1">
-                    <Search />
+                <Search />
                 </div>
 
                 <div className="flex-1 text-center">
