@@ -4,18 +4,18 @@ const Hero = () => {
   return (
     <section>
       <div
-        className="relative text-white bg-cover bg-center min-h-[750px]"
+        className="relative text-white bg-cover bg-center min-h-[750px] z-[1]"
         style={{
           backgroundImage: "url('/images/blackpanther-banner-1.png')",
         }}
       >
-        {/* Overlay hitam */}
-        <div className="absolute inset-0 bg-black bg-opacity-80 z-10" />
 
-        {/* Konten */}
-        <div className="relative z-20 flex flex-col md:flex-row justify-between items-start h-full px-10 py-16">
-          {/* Konten Teks */}
-          <div className="max-w-lg flex flex-col gap-4 text-left justify-center">
+        <div className="absolute inset-0 bg-black bg-opacity-80 z-[0]" />
+
+
+        <div className="relative z-[1] flex flex-col md:flex-row justify-between items-start h-full px-10 py-16">
+
+          <div className="max-w-lg flex flex-col gap-4 text-left justify-center z-[1]">
             <h1 className="text-[48px] md:text-[64px] font-extrabold text-[#5A38EE] leading-none">
               BLACK PANTHER
             </h1>
