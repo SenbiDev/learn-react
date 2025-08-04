@@ -2,23 +2,40 @@ import React from 'react';
 
 const TopMovies = () => {
   return (
-    <section className="my-10 px-6 md:px-10">
-      <h2 className="text-2xl font-bold text-[#5A38EE] mb-6">Top Movies 2025</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <section className="my-10">
+      <h2 className="text-2xl font-bold mb-6">Top Movies 2025</h2>
 
+      <div className="flex flex-row gap-6 items-center overflow-x-auto">
         <img
           src="/images/bullet_train_explotion-1.png"
-          className="w-full h-full object-cover rounded-lg"
-          alt="Top movie main"
+          alt="Top big 1"
+          className="w-[250px] h-[360px] object-cover rounded-lg flex-shrink-0"
         />
 
-        <div className="grid grid-cols-2 gap-2">
-          {[1, 2, 3, 4].map((num) => (
+        <div className="grid grid-cols-2 gap-4">
+          {['1', '2', '3', '4'].map((num) => (
             <img
               key={num}
-              src={`/images/last_bullet-1-${num}.png`}
-              className="w-full object-cover rounded-lg"
-              alt={`Top movie ${num}`}
+              src={`/images/last_bullet-${num}.png`}
+              alt={`Top small ${num}`}
+              className="w-[150px] h-[160px] object-cover rounded-lg"
+            />
+          ))}
+        </div>
+
+        <img
+          src="/images/bullet_train_explotion-2.png"
+          alt="Top big 2"
+          className="w-[250px] h-[360px] object-cover rounded-lg flex-shrink-0"
+        />
+
+        <div className="grid grid-cols-2 gap-4">
+          {['5', '6', '7', '8'].map((num) => (
+            <img
+              key={num}
+              src={`/images/last_bullet-${num}.png`}
+              alt={`Top small ${num}`}
+              className="w-[150px] h-[160px] object-cover rounded-lg"
             />
           ))}
         </div>
