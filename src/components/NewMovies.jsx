@@ -29,7 +29,7 @@ const NewMovies = () => {
             className="bg-[#1C1A1A] rounded-xl overflow-hidden flex shadow-lg"
           >
             <img
-              src={`/images/movies/${movie.image}`}
+              src={`/images/${movie.image}`}
               className="w-1/2 h-full object-cover"
               alt={movie.title}
             />

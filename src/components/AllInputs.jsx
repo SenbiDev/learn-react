@@ -229,7 +229,7 @@ export const HiddenInput = () => {
 
 // Image Input
 export const ImageInput = () => {
-  const [image, setImage] = useState(null);
+  const [Image, setImage] = useState(null);
   const [preview, setPreview] = useState(null);
 
   const handleImageChange = (e) => {

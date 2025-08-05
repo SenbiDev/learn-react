@@ -1,5 +1,5 @@
 import React from 'react';
-import Category from './category';
+import Category from './Category';
 import NewsImages from './NewsImages';
 
 function MainContent() {

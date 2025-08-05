@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Navigation from "./Navigation";
-import MainContent from "./Maincontent";
+import MainContent from "./MainContent";
 import Footer from "./Footer";
 
 const BeritaPage = () => {

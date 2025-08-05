@@ -26,7 +26,6 @@ const Hero = () => {
             </p>
           </div>
 
-          {/* Tombol kanan bawah */}
           <div className="flex flex-col justify-end items-end mt-auto pb-8">
             <div className="flex gap-4">
               <button className="bg-[#5A38EE] text-white px-10 py-2 rounded-full font-bold">
