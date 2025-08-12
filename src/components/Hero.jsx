@@ -6,11 +6,11 @@ const Hero = () => {
       <div
         className="relative text-white bg-cover bg-center min-h-[750px] z-[1]"
         style={{
-          backgroundImage: "url('/images/blackpanther-banner-1.png')",
+          backgroundImage: "url('./pulic/images/blackpanther-banner-1.png')",
         }}
       >
 
-        <div className="absolute inset-0 bg-black bg-opacity-80 z-[0]" />
+        <div className="absolute inset-0 bg-black bg-opacity-80 z-[1]" />
 
 
         <div className="relative z-[1] flex flex-col md:flex-row justify-between items-start h-full px-10 py-16">

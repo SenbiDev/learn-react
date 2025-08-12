@@ -62,7 +62,7 @@ const CrudArrayStr = () => {
             onClick={handleAdd}
             className="w-full bg-blue-600 hover:bg-blue-700 py-2 rounded-md transition text-white"
           >
-            Tambah
+            
           </button>
         </div>
         
